@@ -1,0 +1,29 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 300px;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.common-form{
+    width: 360px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.submit{
+    margin-top: 50px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-weight: 700;
+}
